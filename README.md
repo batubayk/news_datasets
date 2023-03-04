@@ -23,7 +23,12 @@ train = pd.read_csv("train.tsv","\t")
 validation = pd.read_csv("validation.tsv","\t")
 test = pd.read_csv("test.tsv","\t")
 ```
+# Human Judgements
 
+## Tr-News 
+
+* [Berturk-cased system](https://drive.google.com/file/d/1F83WE1--srmt3ug-8a_6NoCtEJ74f4x5/view?usp=sharing)
+* [mT5 system](https://drive.google.com/file/d/1aQ0UxNviLrykWfI6wqvz6DMrTU0LT8X7/view?usp=sharing)
 # Citation
 If you use these datasets, please cite the paper:
     
