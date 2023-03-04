@@ -23,7 +23,13 @@ train = pd.read_csv("train.tsv","\t")
 validation = pd.read_csv("validation.tsv","\t")
 test = pd.read_csv("test.tsv","\t")
 ```
+or you can use them over Huggingface Dataset
 
+```python
+from datasets import load_dataset
+tr_dataset = load_dataset("batubayk/TR-News")
+hu_dataset = load_dataset("batubayk/HU-News")
+```
 # Citation
 If you use these datasets, please cite the paper:
     
