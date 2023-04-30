@@ -30,6 +30,14 @@ from datasets import load_dataset
 tr_dataset = load_dataset("batubayk/TR-News")
 hu_dataset = load_dataset("batubayk/HU-News")
 ```
+
+# Human Judgements
+
+## Tr-News 
+
+* [Berturk-cased system](https://drive.google.com/file/d/1F83WE1--srmt3ug-8a_6NoCtEJ74f4x5/view?usp=sharing)
+* [mT5 system](https://drive.google.com/file/d/1aQ0UxNviLrykWfI6wqvz6DMrTU0LT8X7/view?usp=sharing)
+
 # Citation
 If you use these datasets, please cite the paper:
     
